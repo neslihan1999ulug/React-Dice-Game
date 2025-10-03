@@ -2,6 +2,8 @@
 
 A simple React app that simulates rolling dice for two players: a user and the computer. When you click the button, both roll their dice and the app displays the result.
 
+## Live Demo
+[Live Demo](https://neslihan1999ulug.github.io/React-Dice-Game/)
 ## Project Preview
 ![Project Preview](/public/preview.gif)
 

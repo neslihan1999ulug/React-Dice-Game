@@ -42,11 +42,11 @@ function App() {
         <div className='my-6 flex flex-row justify-between items-center space-y-4'>
           <div className='flex flex-col justify-between'>
             <h2 className='pacifico-regular text-4xl font-medium text-green-500'>{playerName}'s Roll: {playerRoll}</h2>
-            <img className='mx-auto' src={`/images/dice${playerRoll}.png`} alt={`Player rolled ${playerRoll}`} />
+            <img className='mx-auto' src={`${process.env.PUBLIC_URL}/images/dice${playerRoll}.png`} alt={`Player rolled ${playerRoll}`} />
           </div>
           <div className='flex flex-col justify-between'>
             <h2 className='pacifico-regular text-4xl font-medium text-green-500'>Computer's Roll: {computerRoll}</h2>
-            <img className='mx-auto' src={`/images/dice${computerRoll}.png`} alt={`Computer rolled ${computerRoll}`} />
+            <img className='mx-auto' src={`${process.env.PUBLIC_URL}/images/dice${computerRoll}.png`} alt={`Computer rolled ${computerRoll}`} />
           </div>
         </div>
         {result && <h2 className='text-4xl font-medium text-purple-500 mb-4'>{result}</h2>}

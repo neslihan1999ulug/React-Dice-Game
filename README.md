@@ -3,7 +3,7 @@
 A simple React app that simulates rolling dice for two players: a user and the computer. When you click the button, both roll their dice and the app displays the result.
 
 ## Project Preview
-![Project Preview](./public/preview.gif)
+![Project Preview](/public/preview.gif)
 
 ### Features
 - Roll dice for player and computer with a single click.
